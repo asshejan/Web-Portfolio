@@ -1,9 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
-h1{
-    font-size: 50px;
+body{
+    margin: 0%;
     font-family: 'Inter', sans-serif;
+}
+h1{
+    font-size: 40px;
+    
 }
 .highlight{
     color: orange;
 }
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 5%;
+}
+.top-banner{
+    background-image: url("./images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+p{
+    margin-top: 30px;
+}
+
+.link-button{
+    text-decoration: none;
+    margin-top: 10%;
+    background-image: linear-gradient(45deg,lightSalmon,tomato);
+    background-color: orange;
+    padding: 10px 20px;
+    
+    border-radius: 10px;
+    font-style: bold;
+    color: aliceblue;    
+}
+.gap{
+    margin-top: 50px;
+}
+.dream-area{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.Ex1{
+
+    float: left;
+    margin-left: 150px;
+    width: 35%;
+    padding: 2.5%;
+    box-shadow: 10px 10px 40px grey;
+    margin-bottom: 200px;
+}
+.Ex2{
+    float: left;
+    margin-left: 30px;
+    width: 35%;
+    padding: 2.5%;
+    box-shadow: 10px 10px 40px grey;
+}.txt{
+    font-size: 30px;
+}
+.Experience-area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#master{
+    border-left: 7px solid lightsalmon;
+}
+#baby{
+    border-left: 7px solid blue;
+}
+#footer{
+    text-align: center;
+    float: left;
+    margin-right: 100px;
+    padding-top: 150px;
+    padding-left: 265px;
+}
+
